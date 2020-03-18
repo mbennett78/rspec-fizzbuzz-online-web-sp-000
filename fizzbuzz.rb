@@ -17,7 +17,6 @@ b = 5
     end
 end
 
-fizzbuzz(3)
 
 
   # Don't forget! This file needs to be 'required' in its spec file
