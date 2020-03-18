@@ -1,8 +1,6 @@
 def fizzbuzz(number)
-test_3 = number.modulo(3)
-test_5 = number.modulo(5)
-
-
+test_3 = (number/3)-number
+test_5 = (number/5)-number
   if test_3==0 && test_5==0
     puts "FizzBuzz"
   elsif test_3==0
@@ -13,6 +11,10 @@ test_5 = number.modulo(5)
     end
 end
 
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(4)
 
 
   # Don't forget! This file needs to be 'required' in its spec file
