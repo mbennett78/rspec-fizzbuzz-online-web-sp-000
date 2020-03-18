@@ -9,7 +9,7 @@ def fizzbuzz(number)
      elsif number.modulo(3) ==0
           return  "Fizz"
        else
-         return "nil"
+         return nil
     end
 end
 
