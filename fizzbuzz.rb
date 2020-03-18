@@ -1,13 +1,13 @@
 def fizzbuzz(number)
 
-  if number.modulo(3)==0
-    return "Fizz"
+  if number.modulo(15)==0
+    return "FizzBuzz"
 
   elsif number.modulo(5) == 0
        return "Buzz"
 
-     elsif number.modulo(15) ==0
-          return  "FizzBuzz"
+     elsif number.modulo(3) ==0
+          return  "Fizz"
        else
          return "nil"
     end
