@@ -1,15 +1,15 @@
 def fizzbuzz(number)
 
-  if (number.modulo(3)==0 && number.modulo(5)==0)
-    puts "FizzBuzz"
+  if number.modulo(3)==0
+    return "Fizz"
 
-  elsif number.modulo(3) == 0
-       puts "Fizz"
+  elsif number.modulo(5) == 0
+       return "Buzz"
 
-     elsif number.modulo(5) ==0
-          puts "Buzz"
+     elsif number.modulo(15) ==0
+          return  "FizzBuzz"
        else
-         puts "nil"
+         return "nil"
     end
 end
 
