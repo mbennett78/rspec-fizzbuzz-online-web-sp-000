@@ -1,13 +1,20 @@
 def fizzbuzz(number)
-test_3 = (number/3)-number
-test_5 = (number/5)-number
-  if test_3==0 && test_5==0
+
+a = 3
+b = 5
+test_3 = number.modulo(a)
+test_5 = number.modulo(b)
+
+  if (test_3==0 && test_5==0)
     puts "FizzBuzz"
+
   elsif test_3==0
        puts "Fizz"
+
      elsif test_5==0
           puts "Buzz"
-           else nil
+
+       else nil
     end
 end
 
