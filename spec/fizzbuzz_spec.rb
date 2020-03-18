@@ -1,5 +1,4 @@
-require_relative '../spec/spec_helper.rb'
-require_relative '../lib/fizzbuzz.rb'
+require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 
 describe "fizzbuzz" do
