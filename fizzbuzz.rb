@@ -12,7 +12,7 @@ b = 5
 
      elsif number.modulo(b) ==0
           puts "Buzz"
-
+       else nil
     end
 end
 
