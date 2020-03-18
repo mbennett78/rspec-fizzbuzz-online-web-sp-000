@@ -26,3 +26,8 @@ describe "fizzbuzz" do
     expect(fizz_4).to eq(nil)
   end
 end
+
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(4)
