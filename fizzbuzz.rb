@@ -2,7 +2,7 @@ def fizzbuzz(number)
 test_3 = number.modulo(3)
 test_5 = number.modulo(5)
 
-  
+
   if test_3==0 && test_5==0
     puts "FizzBuzz"
   elsif test_3==0
