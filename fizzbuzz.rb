@@ -14,7 +14,7 @@ test_5 = number.modulo(b)
      elsif test_5==0
           puts "Buzz"
 
-      
+
     end
 end
 
