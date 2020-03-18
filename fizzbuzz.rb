@@ -1,14 +1,18 @@
 def fizzbuzz(number)
 
   if number.modulo(15)==0
+    puts "FizzBuzz"
     return "FizzBuzz"
 
   elsif number.modulo(5) == 0
+       puts "Buzz"
        return "Buzz"
 
      elsif number.modulo(3) ==0
+          puts "Fizz"
           return  "Fizz"
        else
+         puts "nil"
          return nil
     end
 end
