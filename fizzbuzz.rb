@@ -2,18 +2,16 @@ def fizzbuzz(number)
 
 a = 3
 b = 5
-test_3 = number.modulo(a)
-test_5 = number.modulo(b)
 
-  if (test_3==0 && test_5==0)
+
+  if (number.modulo(a)==0 && number.modulo(b)==0)
     puts "FizzBuzz"
 
-  elsif test_3==0
+  elsif number.modulo(a) == 0
        puts "Fizz"
-
-     elsif test_5==0
+       
+     elsif number.modulo(b) ==0
           puts "Buzz"
-
 
     end
 end
