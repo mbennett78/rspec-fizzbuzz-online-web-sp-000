@@ -9,7 +9,7 @@ b = 5
 
   elsif number.modulo(a) == 0
        puts "Fizz"
-       
+
      elsif number.modulo(b) ==0
           puts "Buzz"
 
